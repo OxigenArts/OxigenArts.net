@@ -1,0 +1,110 @@
+body{
+  word-wrap: break-word;
+  background-color: #fff;
+}
+.serif{
+  font-family: 'Crete Round', serif !important;
+  font-size: 2em !important;
+  margin: 1em 0 ;
+}
+.text-shadow{
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+#header{
+  margin-top:55px;
+  margin-bottom: 0;
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top:10em;
+  padding-bottom:10em;
+
+}
+#header .btn-primary{
+  background: rgba(0,0,0,0.3);
+  border: 2px solid #fff;
+  box-shadow: none !important;
+}
+#header .btn-primary:hover{
+  background: rgba(255,255,255,0.3);
+  border: 2px solid transparent;
+}
+#nav{
+  border-bottom: 1px solid #ddd;
+}
+.navbar-light .navbar-toggler {
+  border-color:transparent;
+  font-size: 2em;
+}
+#responsive{
+  background-color: #fff;
+  padding-top:2em;
+  background-image: url('../img/responsive.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 400px;
+}
+.bg-gray{
+  background-color: #ededed;
+  box-shadow:inset 0 0 10px -5px rgba(0,0,0,0.2);
+}
+.bg-darker{
+  background-color: #252525;
+}
+.jumbotron{
+  padding-top:2em;
+  padding-bottom:2em;
+  background-color: transparent;
+  margin:0;
+}
+.jumbotron h1,.jumbotron h5,.jumbotron p{
+    font-weight: 300 !important;
+}
+.jumbotron h5{
+  margin:10px;
+}
+.jumbotron-heading{
+  font-size:4em;
+}
+#services img{
+  width: 100px;
+  border-radius: 50%;
+  border:2px solid white;
+}
+.servicio{
+  margin:1em 0;
+}
+.card-deck{
+  margin:3em 0;
+}
+input.form-control,textarea.form-control{
+  border-radius: 0;
+}
+#contact{
+  padding:2em 0;
+}
+#team{
+  background-image: url('../img/team.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#services ul,#services li{
+  margin:0;
+  padding: 0;
+  text-align: left;
+}
+#services li{
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  padding: 0.25em 1em;
+  background-color: rgba(255,255,255,0);
+  transition: all 0.1s ease !important;
+}
+
+#services li:hover{
+  background-color: rgba(255,255,255,0.3);
+}
