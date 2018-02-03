@@ -1,7 +1,7 @@
 <?php
-$name =  $POST['name'];
-$email = $POST['email'];
-$msg = $POST['msg'];
+$name = $_REQUEST['name'];
+$email = $_REQUEST['email'];
+$msg = $_REQUEST['msg'];
 $to = "contact@oxigenarts.net";
 $subject = "Mensaje de la web";
 $message = "Nombre: $name \r\nEmail: $email \r\nMensaje: $msg \r\n";
